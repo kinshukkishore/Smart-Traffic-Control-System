@@ -1,0 +1,6 @@
+# [conda]
+#python==3.9.2
+django==3.1.7
+sympy==1.7.1
+ubidots==1.6.6
+pytest==6.2.2 # testing framework

@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Traffic Control System</title>
+    <script type="text/javascript" src="https://d3js.org/d3.v6.min.js"></script>
+    <script type="text/javascript" src="{% static 'tcv/scripts/script.js' %}"></script>
+</head>
+
+<body>
+    <h1 style="text-align: center;">Traffic Control System</h1>
+    <svg id="traffic" width=500 height=500 style="margin: 0 auto; display: block; border: solid">
+        <g id="intersection"></g>
+        <g id="traffic-lights"></g>
+        <g id="vehicles"></g>
+    </svg>
+
+</body>
+
+</html>
